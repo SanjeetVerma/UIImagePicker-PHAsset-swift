@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0E580CA5849840D19DAAA5F9BA96E7 /* SKPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F775EC665E2B903D756580B81A107 /* SKPhoto.swift */; };
+		17CDC9D33B7F4A0A40109D9854671D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		2EBB7D971D8AAA0F001EF904 /* SKPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8231041234DD51210765CB427C5083 /* SKPhotoBrowser.framework */; };
+		37D55830EE2B9A68AF0A56A3AC82D236 /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18ECBFB3B17C83AABA3C63C9A5AB123 /* SKCache.swift */; };
+		3A61EFD8DDD0AB1A94647ED33EBA812A /* SKDetectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBCB656AA198A615D6C21BFDD5C7C39 /* SKDetectingView.swift */; };
+		43D89F88FC025A3792E919A484BFAAA3 /* SKCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7679E0FBD2FE26114E17FD39A05EECB0 /* SKCacheable.swift */; };
+		49CA55ECE6BA353A9B8034832270904C /* SKButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C4CC046500CABE9B2055585A54322B /* SKButtons.swift */; };
+		616736DA06450DCBB1AD74683E4E82C9 /* SKPhotoBrowserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF239D12DCF929C106F1631DC6399E6 /* SKPhotoBrowserOptions.swift */; };
+		62BF511BDE269EC26BB3E1B777F5BC1D /* SKPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B699268A4202B4753E21FE8AFC329 /* SKPhotoBrowser-dummy.m */; };
+		649F4E1D177AA4FFFB139DFCDACF265C /* SKMesurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1226FBC7CA6299B46E7816373A24A9D /* SKMesurement.swift */; };
+		9EA0CF457C08A0D30D131F58F62ABC86 /* SKLocalPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5496086050985FABC67AA1663021F7F4 /* SKLocalPhoto.swift */; };
+		A08FEA1620DA8245E32962844DD26274 /* SKCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FADC2BB696BB729F0EAE0553BC2328 /* SKCaptionView.swift */; };
+		A68EDF354C80C357226759A99290727A /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1632CC764E822D19BC63D9536961A6C0 /* UIView+Radius.swift */; };
+		AA20997479A83C61B562A3366E8A2854 /* SKPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5691806B2A7AF0AAF8325BCA079174 /* SKPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B00DBA00DFF12CDBB7CA17C69B66A20B /* SKPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697F19C0248E0CF9E06B65079F25780 /* SKPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A48A13D42A55601B18830AB92F2F80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		C492E6A3F43D4EA07A28050F64E8180F /* SKPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028FF56881D6244445D62A996D696ED /* SKPagingScrollView.swift */; };
+		C965BBAFAFBFC53763B27C2AA4216395 /* SKDetectingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146454C141AC174C99BB902B71BC419E /* SKDetectingImageView.swift */; };
+		CF8F0802AD7EB1AA93F11E0B5B83BBDC /* Pods-PhotoGalleryDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F71FA2ADE0823E02CE8FA32087F4056C /* Pods-PhotoGalleryDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1B866804ECAE706BA458F301C47AFF5 /* SKPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2330E2694CCC154C846A3AC81B0EE38 /* SKPhotoBrowser.swift */; };
+		D277835E14A86F2194C07B86E0552D60 /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00739FF9FB36AC2619FA684AA77C5254 /* UIImage+Rotation.swift */; };
+		DA949A7CBAF807BCE85D08A43D2EB2D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		DFFC38D393E00374B36EE30857405B67 /* Pods-PhotoGalleryDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06534CEE882AA64F4EF29A6B5C03C3E9 /* Pods-PhotoGalleryDemo-dummy.m */; };
+		E124EAF4FA39BE3EFCBB65FCC7751D02 /* SKToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0002A0C45645F24DE38CF929F506D50 /* SKToolbar.swift */; };
+		ED6E4DFD150E32E3634F48183C2C08AB /* SKAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C6B3ED4FF338B63E2E52226AE807D8 /* SKAnimator.swift */; };
+		F18865CC67E02D393EFCC5FA06C3D909 /* SKIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D21ACC5B4E3FBE70D11CA75898F8B2C /* SKIndicatorView.swift */; };
+		F3333DD9C8A9812DD5725583E7F12250 /* SKZoomingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9656C803C6153D88B74BC81BDDC6FB1 /* SKZoomingScrollView.swift */; };
+		F714A160D66BE43A4FE116E6D150D417 /* SKPhotoBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F25D838B704ED1FE623EC22C426F19A /* SKPhotoBrowserDelegate.swift */; };
+		FB8E851572D6BB4C54E5B22A35E6A784 /* SKPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 389468E4FB9675120F376B688DFF0EC0 /* SKPhotoBrowser.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440ECD9CB4BCE4082581BEC495583FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5FE36167D37ECD9C5024DD53430E12;
+			remoteInfo = SKPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00739FF9FB36AC2619FA684AA77C5254 /* UIImage+Rotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Rotation.swift"; path = "SKPhotoBrowser/extensions/UIImage+Rotation.swift"; sourceTree = "<group>"; };
+		06534CEE882AA64F4EF29A6B5C03C3E9 /* Pods-PhotoGalleryDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoGalleryDemo-dummy.m"; sourceTree = "<group>"; };
+		07933017096773CD0F8F2330CCF351FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF239D12DCF929C106F1631DC6399E6 /* SKPhotoBrowserOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserOptions.swift; path = SKPhotoBrowser/SKPhotoBrowserOptions.swift; sourceTree = "<group>"; };
+		146454C141AC174C99BB902B71BC419E /* SKDetectingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingImageView.swift; path = SKPhotoBrowser/SKDetectingImageView.swift; sourceTree = "<group>"; };
+		1632CC764E822D19BC63D9536961A6C0 /* UIView+Radius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Radius.swift"; path = "SKPhotoBrowser/extensions/UIView+Radius.swift"; sourceTree = "<group>"; };
+		1697F19C0248E0CF9E06B65079F25780 /* SKPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
+		1B8231041234DD51210765CB427C5083 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED159CB1DD9B8BE536374B8CC50D66D /* Pods-PhotoGalleryDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoGalleryDemo-resources.sh"; sourceTree = "<group>"; };
+		389468E4FB9675120F376B688DFF0EC0 /* SKPhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SKPhotoBrowser.bundle; path = SKPhotoBrowser/SKPhotoBrowser.bundle; sourceTree = "<group>"; };
+		3CBCB656AA198A615D6C21BFDD5C7C39 /* SKDetectingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingView.swift; path = SKPhotoBrowser/SKDetectingView.swift; sourceTree = "<group>"; };
+		40E991BD602A4FA021697E03EDC986D0 /* Pods-PhotoGalleryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoGalleryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		53DA94C2DBD2378937A282916B2EB15B /* Pods-PhotoGalleryDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoGalleryDemo-frameworks.sh"; sourceTree = "<group>"; };
+		5496086050985FABC67AA1663021F7F4 /* SKLocalPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKLocalPhoto.swift; path = SKPhotoBrowser/SKLocalPhoto.swift; sourceTree = "<group>"; };
+		58B7262CDB91FA435E6498180DA022FD /* Pods-PhotoGalleryDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoGalleryDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BC71FCF512C355B065525BD2294868C /* Pods_PhotoGalleryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoGalleryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC0605176EB8F72CA164FD2E63AF246 /* SKPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
+		74018BB23ECEE9E90BCEF19A5AF19BBB /* Pods-PhotoGalleryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoGalleryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7679E0FBD2FE26114E17FD39A05EECB0 /* SKCacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCacheable.swift; path = SKPhotoBrowser/SKCacheable.swift; sourceTree = "<group>"; };
+		7D21ACC5B4E3FBE70D11CA75898F8B2C /* SKIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKIndicatorView.swift; path = SKPhotoBrowser/SKIndicatorView.swift; sourceTree = "<group>"; };
+		84FADC2BB696BB729F0EAE0553BC2328 /* SKCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCaptionView.swift; path = SKPhotoBrowser/SKCaptionView.swift; sourceTree = "<group>"; };
+		8F25D838B704ED1FE623EC22C426F19A /* SKPhotoBrowserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserDelegate.swift; path = SKPhotoBrowser/SKPhotoBrowserDelegate.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C1786A1837C23D3CA15EA22568B0EB /* Pods-PhotoGalleryDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PhotoGalleryDemo.modulemap"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A7C4CC046500CABE9B2055585A54322B /* SKButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKButtons.swift; path = SKPhotoBrowser/SKButtons.swift; sourceTree = "<group>"; };
+		B28F775EC665E2B903D756580B81A107 /* SKPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhoto.swift; path = SKPhotoBrowser/SKPhoto.swift; sourceTree = "<group>"; };
+		B556C59B7076BE581EEF05B7F681CAC8 /* SKPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKPhotoBrowser.xcconfig; sourceTree = "<group>"; };
+		B6F58289BA14154DAA9D3F3D7EF5A0E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C6B3ED4FF338B63E2E52226AE807D8 /* SKAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKAnimator.swift; path = SKPhotoBrowser/SKAnimator.swift; sourceTree = "<group>"; };
+		C722CC0796C0F88F8A30038AAABB5E84 /* SKPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SKPhotoBrowser.modulemap; sourceTree = "<group>"; };
+		C9656C803C6153D88B74BC81BDDC6FB1 /* SKZoomingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKZoomingScrollView.swift; path = SKPhotoBrowser/SKZoomingScrollView.swift; sourceTree = "<group>"; };
+		C99B699268A4202B4753E21FE8AFC329 /* SKPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
+		CF5691806B2A7AF0AAF8325BCA079174 /* SKPhotoBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPhotoBrowser.h; path = SKPhotoBrowser/SKPhotoBrowser.h; sourceTree = "<group>"; };
+		D1226FBC7CA6299B46E7816373A24A9D /* SKMesurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKMesurement.swift; path = SKPhotoBrowser/SKMesurement.swift; sourceTree = "<group>"; };
+		D2330E2694CCC154C846A3AC81B0EE38 /* SKPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowser.swift; path = SKPhotoBrowser/SKPhotoBrowser.swift; sourceTree = "<group>"; };
+		E028FF56881D6244445D62A996D696ED /* SKPagingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPagingScrollView.swift; path = SKPhotoBrowser/SKPagingScrollView.swift; sourceTree = "<group>"; };
+		E18ECBFB3B17C83AABA3C63C9A5AB123 /* SKCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCache.swift; path = SKPhotoBrowser/SKCache.swift; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EAD0D03F6125075B3A65657EE6396A3F /* Pods-PhotoGalleryDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoGalleryDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0002A0C45645F24DE38CF929F506D50 /* SKToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKToolbar.swift; path = SKPhotoBrowser/SKToolbar.swift; sourceTree = "<group>"; };
+		F71FA2ADE0823E02CE8FA32087F4056C /* Pods-PhotoGalleryDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoGalleryDemo-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617821C05840C8A37016FEBF043BC219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBB7D971D8AAA0F001EF904 /* SKPhotoBrowser.framework in Frameworks */,
+				DA949A7CBAF807BCE85D08A43D2EB2D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA77DEF830488B0F0EA1C56A0D4F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CDC9D33B7F4A0A40109D9854671D2D /* Foundation.framework in Frameworks */,
+				C1A48A13D42A55601B18830AB92F2F80 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FE98F3C6E70AFE098B2C527BE637B1 /* SKPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B9C6B3ED4FF338B63E2E52226AE807D8 /* SKAnimator.swift */,
+				A7C4CC046500CABE9B2055585A54322B /* SKButtons.swift */,
+				E18ECBFB3B17C83AABA3C63C9A5AB123 /* SKCache.swift */,
+				7679E0FBD2FE26114E17FD39A05EECB0 /* SKCacheable.swift */,
+				84FADC2BB696BB729F0EAE0553BC2328 /* SKCaptionView.swift */,
+				146454C141AC174C99BB902B71BC419E /* SKDetectingImageView.swift */,
+				3CBCB656AA198A615D6C21BFDD5C7C39 /* SKDetectingView.swift */,
+				7D21ACC5B4E3FBE70D11CA75898F8B2C /* SKIndicatorView.swift */,
+				5496086050985FABC67AA1663021F7F4 /* SKLocalPhoto.swift */,
+				D1226FBC7CA6299B46E7816373A24A9D /* SKMesurement.swift */,
+				E028FF56881D6244445D62A996D696ED /* SKPagingScrollView.swift */,
+				B28F775EC665E2B903D756580B81A107 /* SKPhoto.swift */,
+				CF5691806B2A7AF0AAF8325BCA079174 /* SKPhotoBrowser.h */,
+				D2330E2694CCC154C846A3AC81B0EE38 /* SKPhotoBrowser.swift */,
+				8F25D838B704ED1FE623EC22C426F19A /* SKPhotoBrowserDelegate.swift */,
+				0FF239D12DCF929C106F1631DC6399E6 /* SKPhotoBrowserOptions.swift */,
+				F0002A0C45645F24DE38CF929F506D50 /* SKToolbar.swift */,
+				C9656C803C6153D88B74BC81BDDC6FB1 /* SKZoomingScrollView.swift */,
+				00739FF9FB36AC2619FA684AA77C5254 /* UIImage+Rotation.swift */,
+				1632CC764E822D19BC63D9536961A6C0 /* UIView+Radius.swift */,
+				5838F2D80854B3F0CCC70D42A9708D84 /* Resources */,
+				407B145EE4B5E34FBC40B11ECF5A920F /* Support Files */,
+			);
+			path = SKPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		407B145EE4B5E34FBC40B11ECF5A920F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07933017096773CD0F8F2330CCF351FF /* Info.plist */,
+				C722CC0796C0F88F8A30038AAABB5E84 /* SKPhotoBrowser.modulemap */,
+				B556C59B7076BE581EEF05B7F681CAC8 /* SKPhotoBrowser.xcconfig */,
+				C99B699268A4202B4753E21FE8AFC329 /* SKPhotoBrowser-dummy.m */,
+				6BC0605176EB8F72CA164FD2E63AF246 /* SKPhotoBrowser-prefix.pch */,
+				1697F19C0248E0CF9E06B65079F25780 /* SKPhotoBrowser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SKPhotoBrowser";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5838F2D80854B3F0CCC70D42A9708D84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				389468E4FB9675120F376B688DFF0EC0 /* SKPhotoBrowser.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				856BD2455404971BAAE9825BDEECACFA /* Pods */,
+				EF0FE42C2B74BEDD1AFF7C87383E5BF6 /* Products */,
+				EAEE044640B5219B44AE0FEFD0CF87E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		856BD2455404971BAAE9825BDEECACFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00FE98F3C6E70AFE098B2C527BE637B1 /* SKPhotoBrowser */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAEE044640B5219B44AE0FEFD0CF87E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE9D3404442DA9B10D19A257F6376671 /* Pods-PhotoGalleryDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF0FE42C2B74BEDD1AFF7C87383E5BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC71FCF512C355B065525BD2294868C /* Pods_PhotoGalleryDemo.framework */,
+				1B8231041234DD51210765CB427C5083 /* SKPhotoBrowser.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE9D3404442DA9B10D19A257F6376671 /* Pods-PhotoGalleryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6F58289BA14154DAA9D3F3D7EF5A0E4 /* Info.plist */,
+				A1C1786A1837C23D3CA15EA22568B0EB /* Pods-PhotoGalleryDemo.modulemap */,
+				EAD0D03F6125075B3A65657EE6396A3F /* Pods-PhotoGalleryDemo-acknowledgements.markdown */,
+				58B7262CDB91FA435E6498180DA022FD /* Pods-PhotoGalleryDemo-acknowledgements.plist */,
+				06534CEE882AA64F4EF29A6B5C03C3E9 /* Pods-PhotoGalleryDemo-dummy.m */,
+				53DA94C2DBD2378937A282916B2EB15B /* Pods-PhotoGalleryDemo-frameworks.sh */,
+				2ED159CB1DD9B8BE536374B8CC50D66D /* Pods-PhotoGalleryDemo-resources.sh */,
+				F71FA2ADE0823E02CE8FA32087F4056C /* Pods-PhotoGalleryDemo-umbrella.h */,
+				74018BB23ECEE9E90BCEF19A5AF19BBB /* Pods-PhotoGalleryDemo.debug.xcconfig */,
+				40E991BD602A4FA021697E03EDC986D0 /* Pods-PhotoGalleryDemo.release.xcconfig */,
+			);
+			name = "Pods-PhotoGalleryDemo";
+			path = "Target Support Files/Pods-PhotoGalleryDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11BBC59AF5C6268BD238479246BA4944 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00DBA00DFF12CDBB7CA17C69B66A20B /* SKPhotoBrowser-umbrella.h in Headers */,
+				AA20997479A83C61B562A3366E8A2854 /* SKPhotoBrowser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9181EE588CA2F7AB50D436EED1DDBF53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8F0802AD7EB1AA93F11E0B5B83BBDC /* Pods-PhotoGalleryDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D4D000ED34DE3219AB78CC6583F6C88 /* Pods-PhotoGalleryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FA030638CEE60231EF7FC78E445236 /* Build configuration list for PBXNativeTarget "Pods-PhotoGalleryDemo" */;
+			buildPhases = (
+				5BA77B33B890A9AA02DECC58215BFD7E /* Sources */,
+				617821C05840C8A37016FEBF043BC219 /* Frameworks */,
+				9181EE588CA2F7AB50D436EED1DDBF53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A87B2915906DA66EBF6DAAE16B86611 /* PBXTargetDependency */,
+			);
+			name = "Pods-PhotoGalleryDemo";
+			productName = "Pods-PhotoGalleryDemo";
+			productReference = 5BC71FCF512C355B065525BD2294868C /* Pods_PhotoGalleryDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A5FE36167D37ECD9C5024DD53430E12 /* SKPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B900AE6D519C1F12AADF5C45E1F1DD27 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */;
+			buildPhases = (
+				10784C21976FDD593508F65D95852203 /* Sources */,
+				CDEA77DEF830488B0F0EA1C56A0D4F66 /* Frameworks */,
+				11BBC59AF5C6268BD238479246BA4944 /* Headers */,
+				E400E92C8112C7A413641B826465F7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKPhotoBrowser;
+			productName = SKPhotoBrowser;
+			productReference = 1B8231041234DD51210765CB427C5083 /* SKPhotoBrowser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EF0FE42C2B74BEDD1AFF7C87383E5BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D4D000ED34DE3219AB78CC6583F6C88 /* Pods-PhotoGalleryDemo */,
+				4A5FE36167D37ECD9C5024DD53430E12 /* SKPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E400E92C8112C7A413641B826465F7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8E851572D6BB4C54E5B22A35E6A784 /* SKPhotoBrowser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10784C21976FDD593508F65D95852203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6E4DFD150E32E3634F48183C2C08AB /* SKAnimator.swift in Sources */,
+				49CA55ECE6BA353A9B8034832270904C /* SKButtons.swift in Sources */,
+				37D55830EE2B9A68AF0A56A3AC82D236 /* SKCache.swift in Sources */,
+				43D89F88FC025A3792E919A484BFAAA3 /* SKCacheable.swift in Sources */,
+				A08FEA1620DA8245E32962844DD26274 /* SKCaptionView.swift in Sources */,
+				C965BBAFAFBFC53763B27C2AA4216395 /* SKDetectingImageView.swift in Sources */,
+				3A61EFD8DDD0AB1A94647ED33EBA812A /* SKDetectingView.swift in Sources */,
+				F18865CC67E02D393EFCC5FA06C3D909 /* SKIndicatorView.swift in Sources */,
+				9EA0CF457C08A0D30D131F58F62ABC86 /* SKLocalPhoto.swift in Sources */,
+				649F4E1D177AA4FFFB139DFCDACF265C /* SKMesurement.swift in Sources */,
+				C492E6A3F43D4EA07A28050F64E8180F /* SKPagingScrollView.swift in Sources */,
+				0B0E580CA5849840D19DAAA5F9BA96E7 /* SKPhoto.swift in Sources */,
+				62BF511BDE269EC26BB3E1B777F5BC1D /* SKPhotoBrowser-dummy.m in Sources */,
+				D1B866804ECAE706BA458F301C47AFF5 /* SKPhotoBrowser.swift in Sources */,
+				F714A160D66BE43A4FE116E6D150D417 /* SKPhotoBrowserDelegate.swift in Sources */,
+				616736DA06450DCBB1AD74683E4E82C9 /* SKPhotoBrowserOptions.swift in Sources */,
+				E124EAF4FA39BE3EFCBB65FCC7751D02 /* SKToolbar.swift in Sources */,
+				F3333DD9C8A9812DD5725583E7F12250 /* SKZoomingScrollView.swift in Sources */,
+				D277835E14A86F2194C07B86E0552D60 /* UIImage+Rotation.swift in Sources */,
+				A68EDF354C80C357226759A99290727A /* UIView+Radius.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA77B33B890A9AA02DECC58215BFD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFC38D393E00374B36EE30857405B67 /* Pods-PhotoGalleryDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A87B2915906DA66EBF6DAAE16B86611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKPhotoBrowser;
+			target = 4A5FE36167D37ECD9C5024DD53430E12 /* SKPhotoBrowser */;
+			targetProxy = 440ECD9CB4BCE4082581BEC495583FC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		161F285D61E4434DCD9E0839F96EB37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E991BD602A4FA021697E03EDC986D0 /* Pods-PhotoGalleryDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoGalleryDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoGalleryDemo/Pods-PhotoGalleryDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoGalleryDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B0A49A2201983F3FF18A94FE504C40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74018BB23ECEE9E90BCEF19A5AF19BBB /* Pods-PhotoGalleryDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoGalleryDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoGalleryDemo/Pods-PhotoGalleryDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoGalleryDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C46B24A60686DB5616B4EB01F73CE30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B556C59B7076BE581EEF05B7F681CAC8 /* SKPhotoBrowser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SKPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED12689269AA2CB734A84705283BA62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B556C59B7076BE581EEF05B7F681CAC8 /* SKPhotoBrowser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SKPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FA030638CEE60231EF7FC78E445236 /* Build configuration list for PBXNativeTarget "Pods-PhotoGalleryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0A49A2201983F3FF18A94FE504C40A /* Debug */,
+				161F285D61E4434DCD9E0839F96EB37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B900AE6D519C1F12AADF5C45E1F1DD27 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED12689269AA2CB734A84705283BA62F /* Debug */,
+				C46B24A60686DB5616B4EB01F73CE30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,5 @@
+target 'PhotoGalleryDemo' do
+ platform :ios, '8.0'
+ use_frameworks!
+ pod 'SKPhotoBrowser', '~> 3.1.1’
+end
